@@ -1,0 +1,7 @@
+in ManagenenService.js 
+linkRouteToDepots: function (route) {
+                var req = {
+                    method: 'POST',
+                    url: 'restapi/route/linkDepotsToStop',
+                    data: route,
+                }
